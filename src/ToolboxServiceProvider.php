@@ -2,9 +2,9 @@
 
 namespace SparkLaravel\Toolbox;
 
+use SparkLaravel\Toolbox\Commands\ToolboxCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SparkLaravel\Toolbox\Commands\ToolboxCommand;
 
 class ToolboxServiceProvider extends PackageServiceProvider
 {
